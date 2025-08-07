@@ -1,0 +1,47 @@
+{
+  "name": "shreyash-portfolio-cli",
+  "version": "1.0.0",
+  "description": "Interactive CLI portfolio for Shreyash - Full Stack Developer from Sangli, Maharashtra",
+  "main": "index.js",
+  "bin": {
+    "shreyash-portfolio": "./index.js",
+    "dynamicshreyashh": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "portfolio", 
+    "terminal",
+    "interactive",
+    "nodejs",
+    "fullstack",
+    "developer",
+    "shreyash",
+    "dynamicshreyashh",
+    "mern",
+    "javascript"
+  ],
+  "author": "Shreyash <your-email@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "chalk": "^4.1.2",
+    "figlet": "^1.5.2",
+    "boxen": "^5.1.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dynamicshreyashh/shreyash-portfolio-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dynamicshreyashh/shreyash-portfolio-cli/issues"
+  },
+  "homepage": "https://shreyas-h-portfolio.vercel.app/"
+}
